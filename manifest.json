@@ -1,0 +1,19 @@
+{
+  "Name": "qeiboard",
+  "Description": "Device support plugin for Qeiboard",
+  "Author": "Radsi",
+  "Version": "0.8.1",
+  "PluginUUID": "radsi.plugins.qeiboard",
+  "CodePathLin": "qeiboard-linux",
+  "CodePathMac": "qeiboard-mac",
+  "CodePathWin": "qeiboard-win.exe",
+  "Icon": "assets/icon",
+  "Category": "Hardware",
+  "OS": [
+    { "Platform": "linux" },
+    { "Platform": "mac", "MinimumVersion": "11.3" },
+    { "Platform": "windows", "MinimumVersion": "10" }
+  ],
+  "Actions": [],
+  "DeviceNamespace": "qe"
+}
