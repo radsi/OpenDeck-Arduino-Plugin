@@ -1,12 +1,12 @@
 {
-  "Name": "qeiboard",
-  "Description": "Device support plugin for Qeiboard",
+  "Name": "arduino",
+  "Description": "Device support plugin for arduino",
   "Author": "Radsi",
   "Version": "0.8.1",
-  "PluginUUID": "radsi.plugins.qeiboard",
-  "CodePathLin": "qeiboard-linux",
-  "CodePathMac": "qeiboard-mac",
-  "CodePathWin": "qeiboard-win.exe",
+  "PluginUUID": "radsi.plugins.arduino",
+  "CodePathLin": "arduino-linux",
+  "CodePathMac": "arduino-mac",
+  "CodePathWin": "arduino-win.exe",
   "Icon": "assets/icon",
   "Category": "Hardware",
   "OS": [
@@ -15,5 +15,5 @@
     { "Platform": "windows", "MinimumVersion": "10" }
   ],
   "Actions": [],
-  "DeviceNamespace": "qe"
+  "DeviceNamespace": "ar"
 }
