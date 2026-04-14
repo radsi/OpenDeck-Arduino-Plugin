@@ -7,7 +7,7 @@ pub const COL_COUNT: usize = 4;
 pub const KEY_COUNT: usize = ROW_COUNT * COL_COUNT;
 pub const ENCODER_COUNT: usize = 0;
 
-pub const DEVICE_NAMESPACE: &str = "qe";
+pub const DEVICE_NAMESPACE: &str = "ar";
 
 #[derive(Debug, Clone)]
 pub struct CandidateDevice {
